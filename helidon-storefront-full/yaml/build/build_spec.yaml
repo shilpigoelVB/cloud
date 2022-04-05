@@ -55,8 +55,8 @@ env:
   # you can then access the value of that secret in your build_spec.yaml commands
   # these are DELIBERATELY not exported to future stages as they may cpontain confidential info
   vaultVariables:
-    OCIR_HOST_VAULT: ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaals72qtaakwpvwrnmlitfe2vay3dgtsothuvr4mpkgdi5l2chamzq
-    OCIR_STORAGE_NAMESPACE_VAULT: ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaals72qtaaaxtsdmkcfnvwirurclu6rku3tiy2j4ius3lopuw3ebdq
+    OCIR_HOST_VAULT: ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaals72qtaaklrsuiwwg7pfwzctjrpvoxigf6fsar6y5sykblraapba
+    OCIR_STORAGE_NAMESPACE_VAULT: ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaals72qtaayry3qr4gvwg2rvgpclnigky433qaixnaxvzfbdb4sepq
     
   # exportedVariables are made available to use as parameters in sucessor Build Pipeline stages
   # We want to transfer over the vault values in this case, so create a variable to hold them
