@@ -147,7 +147,7 @@ steps:
         
   - type: Command
     name: "Build Source and pack into container image"
-    timeoutInSeconds: 400
+    timeoutInSeconds: 4000
     command: |
       cd ${OCI_PRIMARY_SOURCE_DIR}/helidon-storefront-full
       echo Running maven package - Working in `pwd`
